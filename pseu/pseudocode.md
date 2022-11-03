@@ -1,5 +1,5 @@
 
-Program HitungHitungLuasPersegiPanjang
+Program hitung_luas_ersegi_panjang
 
 deklarasi
 
@@ -22,9 +22,9 @@ program_engubah_jam_dan_menit_yang_di_input_menjadi_satuan_detik.
 
 deklarasi
 
-jam, menit, hasil : angka;
+var jam, menit, hasil : angka;
 
-ALGORITMA :
+algoritma :
 
 baca(jam)
 
@@ -48,7 +48,7 @@ Deklarasi:
 
 var bilangan,hasil:angka
 
-Deskripsi:
+deskripsi:
 
 baca (bilangan)
 
@@ -60,7 +60,7 @@ cetak  "bilangan ganjil"
 
 lainnya
 
-cetak "Bilangan genapl";
+cetak "bilangan genap";
 
 
 4. 
@@ -68,19 +68,19 @@ program hitung_luas_lingkaran
 
 deklarasi :
 
-var ,hasil ,angka
+var r,hasil ,angka
 
 algoritma:
 
 baca(r)
 
-luas = (phi * jari * jari)
+luas = (3,14 * jari * jari)
 
 tulis( luas)
  
  
  
-5. program_menginput_tiga_buah_bilangan_dn_menentukan_
+5. program_menginput_tiga_buah_bilangan_terbesar_terkecil_dan_rata_rata
 
  deklarasi:
  
