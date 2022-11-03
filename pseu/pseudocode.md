@@ -109,14 +109,12 @@ end if
 else
 
 if a>b and a<c then
+Cetak "Terbesar c"
 
-               Cetak "Terbesar c"
-
-               Cetak "Terkecil b"
-    
-               else
+     Cetak "Terkecil b"
+     else
    
-               if a<b and a>c then
+     if a<b and a>c then
 
 Cetak "Terbesar b"
 
