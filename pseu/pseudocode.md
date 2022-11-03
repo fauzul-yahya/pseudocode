@@ -1,77 +1,73 @@
 
-			10=P
-
-
-4=L
-
-
 Program HitungHitungLuasPersegiPanjang
-Algoritma :
-Var Panjang, Lebar, Luas : Integer ;
- deklarasi:
-Read( p )
-Lebar = 4
-Luas <- Panjang * Lebar ;
-L <- 10 * 4
-Write ( 40 )
+deklarasi
+    var panjang,lebar,luas:angka;
+
+algoritma:
+    baca(panjang);
+    baca(lebar);
+
+    luas = panjang * lebar;
+
+    tulis(luas);
 
 
 2.
 Mengubah jam dan menit yang di input ke dalam satuan detik.
-Nilai 1 jam = 3600 detik, dan 1 menit=60 detik. sehingga rumus untuk konversi dari jam dan menit kedalam satuan detik adalah detik=(jam*3600) + (menit*60)
-Program mengubah-jam-dan-menit-yang-diinput-ke-dalam-satuan-detik
+deklarasi
+Jam, menit, hasil : integer;
 
-Algoritma
-1.	User memasukkan input jam. Simpan input nilai tersebut ke dalam variabel "jam"
-2.	User memasukkan input menit. Simpan input nilai tersebut ke dalam variabel "menit"
-3.	Konversikan nilai variabel "jam" ke detik (dikali 3600)
-4.	Konversikan nilai variabel "menit" ke detik (dikali 60)
-5.	Jumlahkan variabel "jam" dan "menit"  yang telah dikonversi, lalu masukkan ke dalam variabel "hasil"
-6.	Tampilkan output dari variabel hasil (Hasil konversi ke detik)
+ALGORITMA :
 
+cetak (“masukkan nilai jam:”)
+
+cetak (“masukkan nilai menit:”)
+
+baca (menit)
+
+Jam <= jam * 3600
+
+Menit <= menit * 60
+
+Hasil <= jam * menit
+
+cetak (“hasil konversi ke detik :” + hasil)
+
+
+3
+
+lgoritma menentukan_bilangan_ganjil_genap
 
 Deklarasi:
-jam, menit, hasil : integer
+  var bil:integer;
+
 Deskripsi:
-print (" 2 ")
-read ( 2 )
-print (" 120 ")
-read (120)
-jam <= 2 * 3600
-menit <= 120 * 60
-hasil <= 7200 + 7200
-print ("7200: " + 14400)
-
-
-3. 
-Algoritma :1. Masukkan Sebuah Bilangan
-                     2. Bagi Bilangan Tersebut Dengan Bilangan Atau Angka 2
-                     3. Jika Bilangan Menghasilkan Sisa Pembagian 0 Maka Genap
-                     4. Jika Bilangan Tidak Menghasilkan Sisa Pembagian 0 Maka
-                         Ganjil
-
-Pseudocode : Read Bilangan                            If Bil Mod 2 = 0  Then,                                     “Output Genap”                           Else                                     “Output Ganjil”                           End If
-
+  bil <- 10;
+  baca (bil)
+  If (bil%2==0) Then
+      "Bilacetakngan Genap";
+      Else
+      cetak "Bilangan Ganjil";
+  Endif
 
 
 
 4. 
 program hitung_luas_lingkaran
 
-Algoritma
-var phi : float;
-var r,luas:integer;
-Diameter : 14
-Jari-jari : 7
-phi <-- 22/7;
-read(7); {diinput user}
+deklarasi :
 
-deklarasi
-luas <-- phi * r *r;
-L <-- 22/7 * 7 * 7
-write(154cm²);
+float phi = 3.14, luas.
+int jari.
+    deskripsi :
 
+input jari.
+luas = phi * jari * jari
 
+write( luas)
+ 
+ 
+ 
 5. 
 
  Input a,b,c
