@@ -1,11 +1,16 @@
 
 Program HitungHitungLuasPersegiPanjang
+
 deklarasi
-    var panjang,lebar,luas:angka;
+
+var panjang,lebar,luas:angka;
+
 
 algoritma:
-    baca(panjang);
-    baca(lebar);
+
+baca(panjang);
+
+baca(lebar);
 
     luas = panjang * lebar;
 
@@ -14,7 +19,9 @@ algoritma:
 
 2.
 Mengubah jam dan menit yang di input ke dalam satuan detik.
+
 deklarasi
+
 Jam, menit, hasil : integer;
 
 ALGORITMA :
@@ -39,16 +46,24 @@ cetak (“hasil konversi ke detik :” + hasil)
 lgoritma menentukan_bilangan_ganjil_genap
 
 Deklarasi:
-  var bil:integer;
+
+var bil:integer;
 
 Deskripsi:
-  bil <- 10;
-  baca (bil)
-  If (bil%2==0) Then
-      "Bilacetakngan Genap";
-      Else
-      cetak "Bilangan Ganjil";
-  Endif
+
+bil <- 10;
+
+baca (bil)
+
+If (bil%2==0) Then
+
+"Bilacetakngan Genap";
+
+Else
+
+cetak "Bilangan Ganjil";
+
+Endif
 
 
 
@@ -58,10 +73,13 @@ program hitung_luas_lingkaran
 deklarasi :
 
 float phi = 3.14, luas.
+
 int jari.
-    deskripsi :
+
+deskripsi :
 
 input jari.
+
 luas = phi * jari * jari
 
 write( luas)
@@ -71,33 +89,62 @@ write( luas)
 5. 
 
  Input a,b,c
-    if a>b and a>c then
-    if b>c then
+
+if a>b and a>c then
+
+if b>c then
+
 Cetak "Terbesar a"
+
 Cetak "Terkecil c"
-    else
+
+else
+
 Cetak "Terbesar a"
+
 Cetak "Terkecil b."
-        end if
-    else
-    if a>b and a<c then
-Cetak "Terbesar c"
-Cetak "Terkecil b"
-    else
-    if a<b and a>c then
+
+end if
+
+else
+
+if a>b and a<c then
+
+               Cetak "Terbesar c"
+
+               Cetak "Terkecil b"
+    
+               else
+   
+               if a<b and a>c then
+
 Cetak "Terbesar b"
+
 Cetak "Terkecil c"
-    else
-    if b>c then
+
+else
+
+if b>c then
+
 Cetak "Terbesar b"
+
 Cetak "Terkecil a"
-    else
+
+else
+
 Cetak "Terbesar c"
+
 Cetak "Terkecil a"
-        end if
-        end if
-        end if
-        end if
+
+end if
+
+end if
+
+end if
+
+end if
+
 rata-rata=(a+b+c)/3
+
 Cetak "rata-rata"
 
