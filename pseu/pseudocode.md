@@ -18,53 +18,49 @@ baca(lebar);
 
 
 2.
-Mengubah jam dan menit yang di input ke dalam satuan detik.
+program_engubah_jam_dan_menit_yang_di_input_menjadi_satuan_detik.
 
 deklarasi
 
-Jam, menit, hasil : integer;
+jam, menit, hasil : angka;
 
 ALGORITMA :
 
-cetak (“masukkan nilai jam:”)
-
-cetak (“masukkan nilai menit:”)
+baca(jam)
 
 baca (menit)
 
-Jam <= jam * 3600
+jam <= jam * 3600
 
-Menit <= menit * 60
+menit <-- menit * 60
 
-Hasil <= jam * menit
+hasil <-- jam * menit
 
-cetak (“hasil konversi ke detik :” + hasil)
+cetak (hasil)
+
 
 
 3
 
-lgoritma menentukan_bilangan_ganjil_genap
+program menentukan_bilangan_ganjil_genap
 
 Deklarasi:
 
-var bil:integer;
+var bilangan,hasil:angka
 
 Deskripsi:
 
-bil <- 10;
+baca (bilangan)
 
-baca (bil)
+hasil =bilangan %2 
 
-If (bil%2==0) Then
+jika(hasil tidak = 0) maka
 
-"Bilacetakngan Genap";
+cetak  "bilangan ganjil"
 
-Else
+lainnya
 
-cetak "Bilangan Ganjil";
-
-Endif
-
+cetak "Bilangan genapl";
 
 
 4. 
@@ -72,77 +68,62 @@ program hitung_luas_lingkaran
 
 deklarasi :
 
-float phi = 3.14, luas.
+var ,hasil ,angka
 
-int jari.
+algoritma:
 
-deskripsi :
+baca(r)
 
-input jari.
+luas = (phi * jari * jari)
 
-luas = phi * jari * jari
-
-write( luas)
+tulis( luas)
  
  
  
-5. 
+5. program_menginput_tiga_buah_bilangan_dn_menentukan_
 
- Input a,b,c
+ deklarasi:
+ 
+ var a, b, c
+ 
+ algoritma:
+ 
+ baca(a)
+ 
+ baca(b)
+ 
+ baca(c)
+ 
+ bilangan terbesar:
 
-if a>b and a>c then
+ jika (  a > b dan b> c ) maka
+ 
+ cetak(terbesar a)
+ 
+ jika(b > a dan b > c) maka
+ 
+ cetak(terbesar b)
+ 
+ lainnya
+ 
+ cetak(terbesar c)
+ 
+ jika (a < b dan a , c) maka
+ 
+ cetak(terkecil a)
+ 
+ jika(b < a dan b < c) maka
 
-if b>c then
+cetak(terkecil b)
 
-Cetak "Terbesar a"
+lainnya
 
-Cetak "Terkecil c"
+cetak (kecil c)
 
-else
+rata_rata =(a+b+c)/3
 
-Cetak "Terbesar a"
 
-Cetak "Terkecil b."
+cetak(rata_rata)
 
-end if
 
-else
-
-if a>b and a<c then
-Cetak "Terbesar c"
-
-     Cetak "Terkecil b"
-     else
-   
-     if a<b and a>c then
-
-Cetak "Terbesar b"
-
-Cetak "Terkecil c"
-
-else
-
-if b>c then
-
-Cetak "Terbesar b"
-
-Cetak "Terkecil a"
-
-else
-
-Cetak "Terbesar c"
-
-Cetak "Terkecil a"
-
-end if
-
-end if
-
-end if
-
-end if
-
-rata-rata=(a+b+c)/3
-
-Cetak "rata-rata"
 
