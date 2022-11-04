@@ -44,9 +44,9 @@ btn.addEventListener('click', function(){
 
 //tugas nomer 5
 
-var a = 111;
-var b = 71;
-var c = 120;
+var a = 100;
+var b = 75;
+var c = 80;
 
 if ( a>b & a>c ){
   console.log("terbesar " + a )
