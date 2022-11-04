@@ -43,3 +43,28 @@ btn.addEventListener('click', function(){
 
 
 //tugas nomer 5
+
+var a = 111;
+var b = 71;
+var c = 120;
+
+if ( a>b & a>c ){
+  console.log("terbesar " + a )
+}else if (b>a & b>c){
+  console.log( "terbesar " + b )
+}else{
+  console.log("terbesar " + c )
+}
+if (a<b & a<c){
+  console.log("terkecil " + a)
+}else if (b<a & b<c){
+  console.log("terkecil " + b)
+}else{
+  console.log("terkecil " + c)
+}
+
+function rata_rata(){
+   var rata_rata = (a+b+c)/3
+   return rata_rata
+}
+console.log("ini rata ratanya "+rata_rata(a, b, c))
