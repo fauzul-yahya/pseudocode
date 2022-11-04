@@ -46,25 +46,33 @@ btn.addEventListener('click', function(){
 
 var a = 100;
 var b = 75;
-var c = 80;
+var c = 85;
+var d = 90;
 
-if ( a>b & a>c ){
+if ( a>b, a > d & a>c ){
   console.log("terbesar " + a )
-}else if (b>a & b>c){
+}else if (b>a, b > d & b>c){
   console.log( "terbesar " + b )
-}else{
+}else if(c > a, c > b & c > d ){
   console.log("terbesar " + c )
-}
-if (a<b & a<c){
-  console.log("terkecil " + a)
-}else if (b<a & b<c){
-  console.log("terkecil " + b)
 }else{
-  console.log("terkecil " + c)
+    console.log("terbesar"+ d)
 }
-
+if (a<b, a < d & a<c){
+  console.log("terkecil " + a)
+}else if (b<a, b < d & b<c){
+  console.log("terkecil " + b)
+}else if(c < a, c < b & c < d ){
+  console.log("terkecil " + c)
+}else {console.log("terkecil"+d)
+}
 function rata_rata(){
-   var rata_rata = (a+b+c)/3
+   var rata_rata = (a+b+c+d)/4
    return rata_rata
 }
-console.log("ini rata ratanya "+rata_rata(a, b, c))
+console.log("ini rata ratanya "+rata_rata(a, b, c, d))
+
+
+
+
+
